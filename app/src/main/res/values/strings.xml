@@ -1,0 +1,7 @@
+<resources>
+    <string name="JUXTA_ONLINE_TRADING">JUXTA</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_closed">drawer_closed</string>
+    <string name="darwer_open">drawer_open</string>
+    <string name="drawer_opened">drawer_closed</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:id="@+id/txtUserName"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtReviews"
+        android:lines="5"
+        android:textColor="@color/design_default_color_on_primary"
+        android:layout_below="@+id/txtUserName"
+        android:layout_marginTop="5dp"
+        android:text="review text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDate"
+        android:layout_below="@+id/txtReviews"
+        android:layout_alignParentEnd="true"
+        android:text="date"
+        android:textColor="@color/design_default_color_on_primary"/>
+
+
+</RelativeLayout>

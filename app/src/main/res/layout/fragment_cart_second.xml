@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="@drawable/img_11">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtAddress"
+        android:text="Address:"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:id="@+id/edtTxtAddress"
+        android:layout_below="@+id/txtAddress"
+        android:lines="2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtZipcode"
+        android:layout_below="@+id/edtTxtAddress"
+        android:text="Zipcode:"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Zipcode"
+        android:id="@+id/edtTxtZipcode"
+        android:layout_below="@+id/txtZipcode"
+        android:lines="2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtPhoneNumber"
+        android:text="Phone Number:"
+        android:layout_below="@+id/edtTxtZipcode"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:id="@+id/edtTxtPhoneNumber"
+        android:layout_below="@+id/txtPhoneNumber"
+        android:lines="2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtEmail"
+        android:text="Email:"
+        android:layout_below="@+id/edtTxtPhoneNumber"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:id="@+id/edtTxtEmail"
+        android:layout_below="@+id/txtEmail"
+        android:lines="2"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnLinLayout"
+    android:layout_marginEnd="20dp"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="20dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBack"
+        android:layout_marginEnd="20dp"
+        android:text="Back"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNext"
+        android:text="NEXT"/>
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWarning"
+        android:layout_above="@+id/btnLinLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Warning"
+        android:textColor="@color/purple_700"
+        android:visibility="gone"/>
+
+</RelativeLayout>
